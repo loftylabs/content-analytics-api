@@ -1,6 +1,6 @@
 import requests
 
-from contentanalytics.models import Product
+from .models import Product
 
 
 class Api(object):
