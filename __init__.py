@@ -8,7 +8,7 @@ class Api(object):
     def __init__(self, url, access_token=None):
         self.url = url
         self.headers = {
-            'Authorization': f'Token {access_token}',
+            'Authorization': 'Token {}'.format(access_token),
         }
 
     def get_product_lists(self, *args, **kwargs):
